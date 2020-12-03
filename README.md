@@ -1,1 +1,3 @@
-## My Attempt to solve the Code Of Advent 2020 challenges
+## Description
+
+My attempt to solve the Code Of Advent 2020 challenges.
