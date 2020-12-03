@@ -11,7 +11,6 @@ func parseFile(filename string) ([]int, error) {
 	file, err := os.Open(filename)
 	if err != nil {
 		return nil, err
-
 	}
 	defer file.Close()
 
@@ -33,7 +32,6 @@ func parseFile(filename string) ([]int, error) {
 	}
 
 	return expenses, nil
-
 }
 
 func getAnswer(expenses []int) int {
@@ -56,5 +54,4 @@ func main() {
 
 	answer := getAnswer(expenses)
 	fmt.Println(answer)
-
 }
